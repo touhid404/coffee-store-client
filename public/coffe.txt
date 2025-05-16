@@ -1,0 +1,47 @@
+const demoCoffees = [
+  {
+    name: "Espresso",
+    chef: "John Doe",
+    supplier: "Bean Bros",
+    taste: "Strong and bold",
+    category: "Hot",
+    details: "A classic Italian espresso made from premium dark roast beans.",
+    photo: "https://i.ibb.co/8DTcxzpc/1.png"
+  },
+  {
+    name: "Latte",
+    chef: "Emily Smith",
+    supplier: "Cafe Supreme",
+    taste: "Creamy and smooth",
+    category: "Hot",
+    details: "Espresso blended with steamed milk and topped with light foam.",
+    photo: "https://images.unsplash.com/photo-1587730975644-6d6ff063d4b5"
+  },
+  {
+    name: "Cold Brew",
+    chef: "Mike Johnson",
+    supplier: "Chill Beans",
+    taste: "Cool and refreshing",
+    category: "Cold",
+    details: "Slow-steeped in cold water for 12 hours, perfect for hot days.",
+    photo: "https://images.unsplash.com/photo-1590080876099-d6b3f3b4d0d4"
+  },
+  {
+    name: "Cappuccino",
+    chef: "Sophia Lee",
+    supplier: "Roast House",
+    taste: "Rich and foamy",
+    category: "Hot",
+    details: "Equal parts espresso, steamed milk, and foam with a sprinkle of cocoa.",
+    photo: "https://images.unsplash.com/photo-1509042239860-f550ce710b93"
+  },
+  {
+    name: "Mocha",
+    chef: "David Kim",
+    supplier: "Java Spot",
+    taste: "Chocolatey delight",
+    category: "Hot",
+    details: "A chocolate-flavored variant of a caffe latte, perfect for sweet tooths.",
+    photo: "https://images.unsplash.com/photo-1573164574572-cb89e39749b4"
+  }
+];
