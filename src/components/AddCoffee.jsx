@@ -1,7 +1,11 @@
 import React from 'react';
 import Alert from './Alert';
+import { Link } from 'react-router';
+
 
 const AddCoffee = () => {
+
+
 
 
     const handleAddCoffe=(e)=>{
@@ -14,7 +18,7 @@ const AddCoffee = () => {
          
 
         // Send data to db
-        fetch('http://localhost:3000/coffees',{
+        fetch('https://coffee-store-server-cyan-eta.vercel.app/coffees',{
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -30,16 +34,6 @@ const AddCoffee = () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
     }
 
 
@@ -48,6 +42,11 @@ const AddCoffee = () => {
   return (
     <div className="min-h-screen bg-[#f3f3f3] flex items-center justify-center p-6">
       <div className="w-full max-w-4xl bg-white p-10 rounded shadow-md">
+     <Link to='/'>
+      <button  className='btn btn-primary'>
+        Back
+      </button>
+     </Link>
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-4">Add New Coffee</h2>
         <p className="text-center text-gray-500 mb-8 max-w-2xl mx-auto">
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here.
